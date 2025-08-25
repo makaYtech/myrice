@@ -1,7 +1,7 @@
 pacman -Syu --noconfirm --needed \
   hyprland \
   kitty \
-  dolphin \
+  pcmanfm \
   firefox \
   wofi \
   waybar \
@@ -19,6 +19,7 @@ pacman -Syu --noconfirm --needed \
   noto-fonts-emoji \
   ttf-jetbrains-mono \
   ttf-font-awesome \
+  nerd-fonts \
   gvfs \
   ffmpegthumbnailer \
   xdg-user-dirs \
