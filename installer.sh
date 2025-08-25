@@ -33,10 +33,11 @@ for dir in "${directories[@]}"; do
   source="$source_dir/$dir"
 
   if [ -d "$target" ]; then
-    #cp -r "$source/." "$target"
+    rm -rf "${target:?}/"*
+    cp -r "$source/." "$target"
     echo "Обновлена директория: $dir"
   else
-    #cp -r "$source" "$target"
+    cp -r "$source" "$target"
     echo "Создана и скопирована директория: $dir"
   fi
 done
