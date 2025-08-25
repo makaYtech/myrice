@@ -1,0 +1,34 @@
+pacman -Syu --noconfirm --needed \
+  hyprland \
+  kitty \
+  dolphin \
+  firefox \
+  wofi \
+  waybar \
+  hyprpaper \
+  mako \
+  polkit \
+  wl-clipboard \
+  cliphist \
+  grim \
+  slurp \
+  playerctl \
+  brightnessctl \
+  noto-fonts \
+  noto-fonts-cjk \
+  noto-fonts-emoji \
+  ttf-jetbrains-mono \
+  ttf-font-awesome \
+  gvfs \
+  ffmpegthumbnailer \
+  xdg-user-dirs \
+  networkmanager \
+  network-manager-applet \
+  bluez \
+  bluez-utils \
+  blueman \
+  pipewire \
+  pipewire-pulse \
+  pipewire-alsa \
+  wireplumber \
+  fastfetch
