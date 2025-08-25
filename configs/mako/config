@@ -1,0 +1,9 @@
+default-timeout=3000
+max-history=5
+background-color=#2e3440
+text-color=#ebdbb2
+border-color=#ebdbb0
+#background-alpha=0.85
+border-radius=10
+max-icon-size=48
+icon-border-radius=5
