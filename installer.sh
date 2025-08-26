@@ -26,7 +26,7 @@ sudo -u "$user" bash "$user_home/myrice/yayinstall.sh"
 #Копирование конфигов
 directories=("hypr" "gtk-3.0" "mako" "kitty" "nvim" "waybar" "wofi")
 
-source_dir="$user_home/myrice"
+source_dir="$user_home/myrice/configs"
 
 for dir in "${directories[@]}"; do
   target="$user_home/.config/$dir"
