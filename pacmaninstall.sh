@@ -28,8 +28,5 @@ pacman -Syu --noconfirm --needed \
   bluez \
   bluez-utils \
   blueman \
-  pipewire \
-  pipewire-pulse \
-  pipewire-alsa \
   wireplumber \
   fastfetch
