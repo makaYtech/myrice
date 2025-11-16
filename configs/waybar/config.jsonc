@@ -8,19 +8,27 @@
     "modules-center": [
         "clock"
     ],
-    "modules-right": ["pulseaudio", "network", "tray"],
+    "modules-right": ["custom/playerctl", "pulseaudio", "network", "tray"],
      "custom/arch": {
           "format": "",
           "tooltip": false,
           "on-click": "wofi --show drun",
           "class": "arch-icon"
     },
+    "custom/playerctl": {
+      "exec": "~/.config/waybar/playerctl.py",
+      "interval": 2,
+      "return-type": "json",
+      "format": "{text}",
+      "tooltip-format": "{alt}",
+      "on-click": "playerctl -p spotify play-pause",
+      "on-click-right": "playerctl -p spotify next",
+      "on-click-middle": "playerctl -p spotify previous"
+    },
     "tray": {
-        // "icon-size": 21,
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
