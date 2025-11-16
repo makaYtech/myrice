@@ -11,6 +11,7 @@
 #network,
 #tray,
 #custom-arch,
+#custom-playerctl,
 #clock {
   transition: box-shadow 0.2s ease-in-out;
 }
@@ -160,6 +161,13 @@ button:hover {
   padding: 0 10px;
   color: #ebdbb2;
   font-size: 17px;
+}
+
+#custom-playerctl {
+  border: 1px solid #ebdbb0;
+  background-color: rgba(46, 52, 64, 0.85);
+  padding: 5;
+  margin-right: 10px;
 }
 
 #pulseaudio {
